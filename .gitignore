@@ -1,0 +1,34 @@
+# Dependencies
+# Ignore node_modules in all subdirectories (frontend and backend)
+node_modules/
+
+# Build Output
+# Ignore build folders from NestJS (dist) and Next.js (.next, out)
+dist/
+.next/
+out/
+
+# Caches
+# Ignore build caches from Next.js (.swc) and NestJS (.cache)
+.swc/
+.cache/
+
+# Environment Variables
+# Never commit your secrets!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE & Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
